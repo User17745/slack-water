@@ -1,0 +1,29 @@
+# Godot 4
+.godot/
+/android/
+*.translation
+export.cfg
+export_credentials.cfg
+export_presets.cfg
+
+# Builds
+/build/
+*.apk
+*.aab
+*.ipa
+
+# Signing and secrets
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Personal working-style profile (kept local)
+TASTE.md
